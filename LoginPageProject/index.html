@@ -12,28 +12,92 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- BOX ICONS -->
+     <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+     <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+     <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
   </head>
-  <body>
+
+  <body class="font-[Oswald] bg-black flex justify-center items-center min-h-screen">
+
     <!-- THE WHOLE WRAPPER -->
-     <div>
+
+     <div class="w-fit border mt-28 ml-30 bg-black rounded-xl p-8 ">
+
             <!-- LEFT SIDE -->
-             <div>
-                  <h1 class="text-cyan-700">WELCOME TO MY FIRST LOGIN PAGE KNOWN AS ZIGG-LOG</h1>
-                  <P>SIGN IN</P>
+
+             <div class="justify-center items-center">
+                  <h1 class="text-3xl text-cyan-50 hover:text-red-500 text-shadow-lg transition-all duration-500"
+                  >WELCOME TO MY FIRST LOGIN PAGE > ZIGG</h1>
+
+                  <P class="text-2xl text-amber-400 text-shadow-lg transition-all duration-500 mt-10 hover:text-red-500 w-fit"
+                  >SIGN UP</P>
              </div>
+
                     <!-- EMAIL -->
-                      <div>
-                        <span class="">YOUR EMAIL</span>
-                        <input type="email" placeholder="example@.com" class="">
-                    </div>
+
+                      <div class="mt-5">
+                        <span class="ml-20 mt-7 w-fit text-cyan-50">EMAIL</span>
+                        <input type="email" placeholder="example@.com" class="text-cyan-50">
+                       <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="#ffffff" viewBox="0 0 24 24" >
+                        <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                        <path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10c1.47 0 2.96-.37 4.44-1.1l-.89-1.79c-1.2.59-2.4.9-3.56.9-4.41 0-8-3.59-8-8S7.59 4 12 4s8 3.59 8 8v1c0 .69-.31 2-1.5 2-1.4 0-1.49-1.82-1.5-2V8h-2v.03C14.16 7.4 13.13 7 12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5c1.45 0 2.75-.63 3.66-1.62.52.89 1.41 1.62 2.84 1.62 2.27 0 3.5-2.06 3.5-4v-1c0-5.51-4.49-10-10-10m0 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3"></path>
+                      </svg>
+                     </div>
+
                     <!-- PASSWORD -->
+
+                     <div class="mt-5">
+                        <span class="ml-20 w-fit text-cyan-50">PASSWORD</span>
+                        <input type="password" placeholder="enter your password" class="text-cyan-50">
+                      <svg  xmlns="http://www.w3.org/2000/svg" width="36" height="36"  
+                        fill="#ffffff" viewBox="0 0 24 24" >
+                       <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                       <path d="M7 7c-2.76 0-5 2.24-5 5s2.24 5 5 5c2.41 0 4.43-1.72 4.9-4H15v2h2v-2h2v3h2v-3h1v-2H11.9A5 5 0 0 0 7 7m0 8c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3"></path>
+                    </svg>
+                    </div>
+
+                    <!-- REMEMBER & FORGOT -->
+
                      <div>
-                        <span class="">YOUR EMAIL</span>
-                        <input type="password" placeholder="enter your password" class="">
+                      <label class="text-cyan-50">
+                        <input type="checkbox">
+                        remember me
+                        <a href="#" class="hover:">forgot password</a>
+                      </label>
+                     </div>
+
+                     <!-- REGISTER -->
+
+                     <div class="text-cyan-50">
+                      don't have an account ?
+                      <a href="#">SIGN UP</a>
+                     </div>
+
+                    <!-- BUTTON -->
+
+                    <div>
+                      <button type="submit" class="justify-center items-center text-blue-300 transition-all duration-600 rounded-xl hover:bg-blue-900 w-fit 
+                      ">
+                        SIGN IN</button>
                     </div>
 
 
+
+
+
+
+
+
+
+
+                    
              <!-- RIGHT SIDE -->
+
+
+
      </div>
   </body>
 </html>
